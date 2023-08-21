@@ -1,0 +1,18 @@
+[package]
+name = "multithread_rd"
+version = "0.1.0"
+edition = "2021"
+authors = ["Zhenguo LIU <zliu094[at]connect.hkust-gz.edu.cn>"]
+description = """
+    The parallelized version of the memory reuse distance analysis algorithm
+    based on Parda(Q. Niu, J. Dinan, Q. Lu and P. Sadayappan,
+    PARDA: A Fast Parallel Reuse Distance Analysis Algorithm)
+"""
+
+[dependencies]
+stack_alg_sim = { path = "../stack_alg_sim" }
+hist_statis = { path = "../hist_statis" }
+threadpool = "1.8.1"
+fxhash = "0.2.1"
+crossbeam = "0.8.2"
+queues = "1.1.0"
