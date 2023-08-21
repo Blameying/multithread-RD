@@ -7,4 +7,4 @@ You can set the number of data elements that one thread should process and defin
 
 # Dependencies
 1. [**stack_alg_sim**](https://github.com/dcompiler/dace/tree/main/stack_alg_sim): The various reuse distance statistic algorithm in single-thread mode.
-2. [**hist_statis**](https://github.com/Blameying/hist_statics) A simple statistical histogram.
+2. [**hist_statis**](https://github.com/Blameying/hist_statis) A simple statistical histogram.
